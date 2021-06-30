@@ -10,6 +10,10 @@
     margin: auto;
 }
 
+.container {
+  max-width: min(90%, 120rem);
+  margin: 0 auto;
+}
 /*Cabecera*/
 
 @media screen and (max-width:950px){
@@ -224,6 +228,32 @@ header{
 }
 
 /*Fin info*/
+
+/* VIDEO - ABOUT THE PRODUCT */
+.about-the-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about-the-product h2 {
+  font-family: Arial Rounded MT;
+  font-size: 30px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+iframe {
+  width: 800px;
+  height: 450px;
+}
+@media (max-width: 760px) {
+  iframe {
+    max-width: 100%;
+  }
+}
+
+
 /*Inicio Buttons*/
 
 .buttons>.contenedor{
